@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+nav {
+    position: fixed;
+    background: #D7EDFD;
+    width: 100% ;
+    padding: 10px;
+}
+
+nav .menu {
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+ 
+nav .logo a {
+    display: flex;
+    align-items: center;
+    text-decoration: #5FB6F9;
+    color: #5FB6F9;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.menu ul{
+    display: inline-flex;
+
+}
+
+.menu ul li {
+    list-style: none ;
+    margin-left: 8px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #5FB6F9 ;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+
+main{
+    background: url(bigwave.png) no-repeat;
+    background-size: cover;
+}
+
+.heroo {
+    margin-left: 75px;
+    width: 90%;
+    background: #b3d3f1;
+    border-radius: 20px;
+    box-shadow: 4px 5px 4px 3px rgba(0, 0, 0, 0.20000000298023224);
+}
+
+main .hero{
+    overflow: auto;
+    align-items: top;
+    width: 100% ;
+    padding: 60px;
+}
+
+img{
+    float: left;
+    margin-right: 20px;
+}
+
+main .hero h2{
+    margin-top: 100px;
+    color: #E93658;
+    font-weight: 450px;
+    font-size: 30px; 
+}
+
+main .hero p{
+    margin-top: 10px;
+    color: #868686;
+    font-weight: 450px;
+    font-size: 30px; 
+}
+
+main .hero1{
+    overflow: auto;
+    width: 100% ;
+    padding: 60px;
+}
+
+main .hero1 h2{
+    margin-top: 35px;
+    color: #FFFFFF;
+    font-weight: 450px;
+    font-size: 48px; 
+}
+
+main .hero1 p{
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 450px;
+    font-size: 30px; 
+}
+
+main .hero2{
+    overflow: auto;
+    width: 100% ;
+    padding: 60px;
+}
+
+#new{
+    margin-top: 35px;
+    color: #396D96;
+    font-weight: 450px;
+    font-size: 48px; 
+}
+
+#nee{
+    text-align: center;
+    color: #868686;
+    font-weight: 450px;
+    font-size: 30px; 
+}
+
+main .hero1 button{
+    height: 55px;
+    width: 170px;
+    border-radius: 30px;
+    background: #b3d3f1;
+    border: 2px solid #5fa9ef;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.Loggin {
+    margin-top: 30px;
+    margin-left: 300px;
+    width: 60%;
+    background: #f6f7f8;
+    padding:  84px 92px 84px;
+    border-radius: 20px;
+    box-shadow: 4px 5px 4px 3px rgba(0, 0, 0, 0.20000000298023224);
+}
+
+.Login{
+    display: inline-block;
+}
+
+.Login h3{
+    color: #254061;
+    font-size: 23px;
+    font-weight: 700;
+    letter-spacing: 1.6px;
+    margin-top: 32px;
+    margin-left: 150px;
+}
+
+.Login label {
+    font-size: 23px;
+    font-weight: 500;
+    letter-spacing: 1.6px;
+    margin-top: 32px;
+}
+
+.Login input{
+    font-size: 17px;
+    line-height: 2;
+    background: #EFF0F1; 
+    border-radius: 12px;
+    align-items: center;
+    border-radius: 12px;
+    display: flex;
+    padding: 8px 384px 8px 32px;    
+} 
+
+.login a {
+    margin-left: 170px;
+    display: flex;
+    align-items: center;
+    text-decoration: #5FB6F9;
+    color: #5FB6F9;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+button{
+    height: 55px;
+    width: 170px;
+    border-radius: 30px;
+    border: 2px solid #5FB6F9;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;  
+}
+
+a {
+    margin-left: 10px;
+    text-decoration: #5FB6F9;
+    color: #5FB6F9;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+p{
+    color: #868686;
+    font-weight: 450px;
+    font-size: 18px; 
+    justify-content: space-evenly;
+    margin-left: 100px;
+}
+
+.register{
+    align-items: center;
+    text-decoration: #5FB6F9;
+    color: #5FB6F9;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.register button{
+    background: linear-gradient(180deg, #5fb6f9 0%,#3643fc 100%);
+    width: 100%;
+    height: 85px;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1.6px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 36px;
+}
+
+#sign{
+    margin-left: 375px;
+}
